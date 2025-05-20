@@ -1,4 +1,3 @@
-What this script does:
 Loads NWPU-RESISC45 images and labels from folders, applies resizing + tensor conversion
 
 Samples episodic tasks (5-way 5-shot with 15 queries per class)
@@ -11,7 +10,6 @@ Runs meta-training and evaluation loops reporting accuracy and classification me
 
 Plots metrics after training
 
-What to update before running:
 Change dataset_dir to your actual NWPU-RESISC45 dataset folder path
 
 Optionally add normalization transforms if your model requires
